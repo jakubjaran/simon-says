@@ -1,0 +1,121 @@
+.App {
+    text-align: center;
+}
+
+.App h1 {
+    margin-top: 40px;
+    color: #ff9668;
+}
+
+.App p {
+    color: #ff9668;
+}
+
+.Game {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Game button {
+    height: 30vw;
+    width: 30vw;
+    border: none;
+    margin: 4px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    transition: all 0.1s;
+}
+
+.Game button:active {
+    outline: none;
+    border: 1px solid #ffffff7e;
+}
+
+.Game button:focus {
+    outline: none;
+}
+
+.st {
+    background-color: #665c84;
+}
+
+.st.active {
+    background-color: #9583c9;
+    box-shadow: 0px 0px 5px 5px #9583c993;
+}
+
+.st:active {
+    background-color: #9583c9;
+    box-shadow: 0px 0px 5px 5px #9583c993;
+}
+
+.nd {
+    background-color: #ff7657;
+}
+
+.nd.active {
+    background-color: #ff8b76;
+    box-shadow: 0px 0px 5px 5px #ff8b7693;
+}
+
+.nd:active {
+    background-color: #ff8b76;
+    box-shadow: 0px 0px 5px 5px #ff8b7693;
+}
+
+.rd {
+    background-color: #ffba5a;
+}
+
+.rd.active {
+    background-color: #ffc36e;
+    box-shadow: 0px 0px 5px 5px #ffc36e93;
+}
+
+
+.rd:active {
+    background-color: #ffc36e;
+    box-shadow: 0px 0px 5px 5px #ffc36e93;
+}
+
+.th {
+    background-color: #53d397;
+}
+
+.th.active {
+    background-color: #97e7c2;
+    box-shadow: 0px 0px 5px 5px #97e7c293;
+}
+
+.th:active {
+    background-color: #97e7c2;
+    box-shadow: 0px 0px 5px 5px #97e7c293;
+}
+
+.playBtn {
+    margin-top: 10px;
+    border-radius: 16px;
+    width: 62vw;
+    height: 60px;
+    font: inherit;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: 0;
+    background-color: #ff9668;
+    color: #fff;
+    transition: all 0.1s;
+}
+
+.playBtn:focus {
+    outline: none;
+}
+
+.playBtn:active {
+    outline: none;
+    background-color: #ffb08e;
+}
+
+.signature {
+    margin-top: 40px;
+}

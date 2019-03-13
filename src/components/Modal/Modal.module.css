@@ -1,0 +1,48 @@
+.Modal {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+}
+
+.Box {
+    width: 55vw;
+    height: 55vw;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #fbeed7;
+    border-radius: 16px;
+}
+
+.Modal h2 {
+    color: #ff9668;
+}
+
+.Modal button {
+    border-radius: 16px;
+    width: 100%;
+    height: 60px;
+    font: inherit;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: 0;
+    background-color: #ff9668;
+    color: #fff;
+    transition: all 0.1s;
+}
+
+.Modal button:focus {
+    outline: none;
+}
+
+.Modal button:active {
+    outline: none;
+    background-color: #ffb08e;
+}
